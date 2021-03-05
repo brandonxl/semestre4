@@ -20,5 +20,4 @@ function calculadora(){
         let multiplicar = document.getElementById('resultado').value = n1 * n2;
     }
 
-    
 }

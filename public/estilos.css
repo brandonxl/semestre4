@@ -1,54 +1,21 @@
-*{
-    margin: 0px;
-    padding: 0px;
+input{
+    border: 2px solid black;
 }
 
 #n1{
-margin-bottom: 15px;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-
-margin-top: 70px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
-
-
-button{
-  
-    cursor: pointer;
-}
-
 #n2{
     margin-bottom: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
- 
-    }
+    padding: 10px;
+}
 
-    #diseno{
-        width: 300px;
-        height: 300px;
-        background-color: rgb(71, 187, 187);
-        border-radius: 20px;
-       border-top: 20px;
-      
-       
-       display: flex;
-      justify-content: center;
-      align-items: center;
-       
-    }
-    .hijo
+button{
+    padding: 10px;
+}
 
-    input{
-        border: 3px solid black ;
-        margin-left: 17px;
-        
-    }
-
-   ::placeholder{
-       color: white;
-   }
-
- 
-
+#resultado{
+    padding: 5px;
+}
