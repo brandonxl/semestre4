@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#n1{
+margin-bottom: 15px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+margin-top: 70px;
+
+}
+
+
+button{
+  
+    cursor: pointer;
+}
+
+#n2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    }
+
+    #diseno{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(71, 187, 187);
+        border-radius: 20px;
+       border-top: 20px;
+      
+       
+       display: flex;
+      justify-content: center;
+      align-items: center;
+       
+    }
+    .hijo
+
+    input{
+        border: 3px solid black ;
+        margin-left: 17px;
+        
+    }
+
+   ::placeholder{
+       color: white;
+   }
+
+ 
+

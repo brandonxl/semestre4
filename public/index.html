@@ -2,15 +2,38 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
 <body>
     
-    <h1 id="principal">Mi calculadora</h1>
+  
+<div id="diseno">
 
-    
+   <div id="hijo">
 
+       <input id="n1" type="text" id="n1" placeholder="intoduzca un numero"> <br/>
+       <input id="n2" type="text" id="n2" placeholder="introduzca un numero"> <br/>
+       
+       
+       <select id="operaciones">
+           <option value="+">+</option>
+           <option value="-">-</option>
+           <option value="/">/</option>
+           <option value="*">*</option>
+           <input type="text" id="resultado">
+           
+           <button  onclick="calculadora()";>=</button>
+           
+        </select>
+    </div>
+</div>
+
+
+
+
+   
     <script src="main.js"></script>
 </body>
 </html>
